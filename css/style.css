@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(222, 228, 228);
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+#logo{
+    display: flex;
+    width: 50%;
+    margin-left: 20px;
+    align-items: center;  
+
+}
+#nav{
+ width: 50%;
+    display:flex;
+    justify-content: space-evenly;  
+    align-items: center;
+    margin-right: 20px;
+    
+    
+}
+#main{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0px;
+  background-color: aliceblue;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    position: relative;
+}
+p{
+    color: black;
+    text-align: justify;
+    text-indent: 2em;
+    margin-left: 20px;
+    letter-spacing:0.5px;
+   
+}
+.name{
+    margin: auto;
+}
+#home{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: flex-end ;
+}
+.home{
+    display: flex;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+}
+.about{
+    margin: auto;
+}
+#about-section{
+    display: flex;
+    flex-direction: column;
+}
+#resume{
+    display: flex;
+    flex-direction: column;
+}
+.resume{
+    margin: auto;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    margin: auto;
+}
+#footer{
+    margin: auto;
+    text-align: center;
+}
+
